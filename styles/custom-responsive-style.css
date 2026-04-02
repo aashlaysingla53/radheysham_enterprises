@@ -7,6 +7,20 @@
   #Header .logo a img {
     width: 60px;
   }
+  #ContactUs .contact-grid {
+    grid-template-columns: 1fr; /* Switch from 3 columns to 1 */
+    gap: 15px;
+  }
+
+  #ContactUs .contact-card {
+    flex-direction: column; /* Stack icon above the text */
+    align-items: center;
+    text-align: center;
+  }
+
+  #ContactUs .contact-card-secondary {
+    justify-content: center; /* Center the WhatsApp/Call buttons */
+  }
   #Header .menu-wrap {
     padding-top: 3px;
   }
